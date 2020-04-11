@@ -1,5 +1,6 @@
 # Vectors
 ## Initialize a vector
+<pre>
 <code>
 //1.
 vector<int> vect;
@@ -15,3 +16,4 @@ vector<int> vect(n, 10);
 //C++11
 vector<int> vect{10, 20, 30};
 </code>
+</pre>
