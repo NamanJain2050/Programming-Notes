@@ -29,3 +29,15 @@ vect.insert(vect.begin(), 0);
 vect.insert(vect.begin()+2, 9);
 </code>
 </pre>
+# Strings
+## Comparing strings
+Operators <, <=, >, >= compare strings <b>lexicographically, character by character and are case-sensitive.</b>
+<pre>
+<code>
+"A" < "B"
+"App" < "Apple"
+"help" > "hello"
+"Apple" < "apple"
+</code>
+</pre>
+The last one might be a bit confusing, but the ASCII value for 'A' is 65, and comes before 'a', whose ASCII value is 97. So "Apple" comes before "apple".
