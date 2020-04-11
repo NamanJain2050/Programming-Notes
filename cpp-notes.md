@@ -29,6 +29,12 @@ vect.insert(vect.begin(), 0);
 vect.insert(vect.begin()+2, 9);
 </code>
 </pre>
+## Copy a vector
+<pre>
+<code>
+a = b;  //I don't know why I need it in notes.
+</code>
+</pre>
 # Strings
 ## Comparing strings
 Operators <, <=, >, >= compare strings <b>lexicographically, character by character and are case-sensitive.</b>
