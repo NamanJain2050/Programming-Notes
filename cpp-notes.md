@@ -93,3 +93,16 @@ nth_element(vect.begin(), vect.begin()+5, vect.end());
 print(vect);  //3 1 4 2 5 6 9 7 8
 </code>
 </pre>
+# Partitioning
+## partition()
+Rearranges the elements from the range \[first,last), in such a way that all the elements for which <b>pred returns true precede all those for which it returns false</b>. The iterator returned points to the first element of the second group. The relative ordering within each group is not necessarily the same as before the call.
+<pre>
+<code>
+bool IsOdd (int i) {
+  return (i%2)==1;
+}
+vector&lt;int&gt; vect{1, 2, 3, 4, 5, 6, 7, 8, 9};
+partition(vect.begin(), vect.end(), IsOdd);
+print(vect); //1 9 3 7 5 6 4 8 2
+</code>
+</pre>
