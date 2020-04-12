@@ -93,7 +93,7 @@ print(vect);  //10 20 30 40 50
 </code>
 </pre>
 ## partial_sort()
-Rearranges the elements in the range \[first,last), in such a way that the elements before middle are the smallest elements in the entire range and are sorted in ascending order, while the remaining elements are left without any specific order.
+Rearranges the elements in the range \[first,last), in such a way that the <b>elements before middle</b> are the smallest elements in the entire range and are sorted in ascending order, while the remaining elements are left without any specific order.
 <pre>
 <code>
 vector&lt;int&gt; vect{9, 8, 7, 6, 5, 4, 3, 2, 1};
