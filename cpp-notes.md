@@ -40,7 +40,7 @@ a = b;  //I don't know why I need it in notes.
 <pre>
 <code>
 
-bool comp(pair&lt;int, int&gt;& a, pair&lt;int, int&gt;& b) {
+bool comp(pair&lt;string, int&gt;& a, pair&lt;string, int&gt;& b) {
   return a.second < b.second;
 }
 unordered_map&lt;string, int&gt; mp;
