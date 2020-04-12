@@ -47,3 +47,22 @@ Operators <, <=, >, >= compare strings <b>lexicographically, character by charac
 </code>
 </pre>
 The last one might be a bit confusing, but the ASCII value for 'A' is 65, and comes before 'a', whose ASCII value is 97. So "Apple" comes before "apple".
+# Heaps
+<pre>
+<code>
+vector<int> A {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+make_heap(A.begin(), A.end());    //max-heap
+print(A);   //9 8 6 7 4 5 2 0 3 1 
+
+A.push_back(10);
+push_heap(A.begin(), A.end());
+print(A);   //10 9 6 7 8 5 2 0 3 1 4
+
+pop_heap(A.begin(), A.end());
+A.pop_back();
+print(A);   //9 8 6 7 4 5 2 0 3 1 
+
+sort_heap(A.begin(), A.end());    //ascending order
+print(A);   //0 1 2 3 4 5 6 7 8 9 
+</code>
+</pre>
