@@ -35,6 +35,23 @@ vect.insert(vect.begin()+2, 9);
 a = b;  //I don't know why I need it in notes.
 </code>
 </pre>
+# Map
+## How to sort a map by value
+<pre>
+<code>
+
+bool comp(pair&lt;int, int&gt;& a, pair&lt;int, int&gt;& b) {
+  return a.second < b.second;
+}
+unordered_map&lt;string, int&gt; mp;
+mp["I"] = 1;
+mp["J"] = 2;
+mp["K"] = 3;
+
+vector&lt;pair&lt;string, int&gt;&gt; vect(mp.begin(), mp.end()); //initialize vector with map pairs
+sort(vect.begin(), vect.end(), comp);
+</code>
+</pre>
 # Strings
 ## Comparing strings
 Operators <, <=, >, >= compare strings <b>lexicographically, character by character and are case-sensitive.</b>
