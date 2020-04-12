@@ -3,7 +3,7 @@
 <pre>
 <code>
 //1.
-vector<int> vect;
+vector&lt;int&gt; vect;
 vect.push_back(10);
 vect.push_back(20);
 vect.push_back(30);
