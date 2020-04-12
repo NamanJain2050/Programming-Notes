@@ -84,3 +84,12 @@ partial_sort(vect.begin(), vect.begin()+5, vect.end());
 print(vect);  //1 2 3 4 5 9 8 7 6
 </code>
 </pre>
+## nth_element()
+Rearranges the elements in the range \[first,last), in such a way that the element at the nth position is the element that would be in that position in a sorted sequence. The other elements are left without any specific order, except that none of the elements preceding nth are greater than it, and none of the elements following it are less.
+<pre>
+<code>
+vector&lt;int&gt; vect{1, 2, 3, 4, 5, 6, 7, 8, 9};
+nth_element(vect.begin(), vect.begin()+5, vect.end());
+print(vect);  //3 1 4 2 5 6 9 7 8
+</code>
+</pre>
