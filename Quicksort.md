@@ -13,7 +13,7 @@ Given a list of numbers we have to choose a pivot element around which we can pa
 - Median of three
 
 Picking first or last element of array can cause worst case if array is already sorted. This can be tackled by picking a random pivot. <br>
-"Median of three" rule says: choose the pivot of first, middle and last element of array as pivot. This solves the problem of algorithm degrading to worst case in already sorted arrays. It also gives better constant time complexity than picking the pivot randomly 
+"Median of three" rule says: choose the median of first, middle and last element of array as pivot. This solves the problem of algorithm degrading to worst case in already sorted arrays. It also gives better constant time complexity than picking the pivot randomly 
 
 <b> 3. Partition procedure </b> <br>
 Given a 'pivot' element, now we need to partition our array around this pivot. <br>
