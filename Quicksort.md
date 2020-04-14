@@ -21,3 +21,9 @@ Code: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e <br
 
 - This scheme is attributed to Nico Lomuto and also mentioned in CLRS (https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme)
 - This scheme chooses pivot as the last element of array
+
+<b> 4. Time Complexity Analysis </b> <br>
+
+T(n) = T(k) + T(n-k-1) + \theta(n)
+where k is the size of left subarray and can range from 0 to n - 1;
+
