@@ -24,6 +24,6 @@ Code: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e <br
 
 <b> 4. Time Complexity Analysis </b> <br>
 
-T(n) = T(k) + T(n-k-1) + \theta(n)
+T(n) = T(k) + T(n-k-1) + $\theta$(n)
 where k is the size of left subarray and can range from 0 to n - 1;
 
