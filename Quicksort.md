@@ -21,6 +21,7 @@ Code: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e <br
 
 - This scheme is attributed to Nico Lomuto and also mentioned in CLRS (https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme)
 - This scheme chooses pivot as the last element of array
+- This scheme degrades to O(n^2) when the array is already in order (ascending or descending)
 
 <b> 4. Time Complexity Analysis </b> <br>
 T(n) = T(k) + T(n-k-1) + \theta(n) <br>
