@@ -7,10 +7,13 @@ The idea is to select a 'pivot' element from the array and 'partition' other ele
 
 <b> 2. How to pick a pivot? </b> <br>
 Given a list of numbers we have to choose a pivot element around which we can partition. Common choices of pivot are:
-- First number of array
-- Last number of array
+- First element of array
+- Last element of array
 - Pick randomly
-- Pick median of array
+- Median of three
+
+Picking first or last element of array can cause worst case if array is already sorted. This can be tackled by picking a random pivot. <br>
+"Median of three" rule says: choose the pivot of first, middle and last element of array as pivot. This solves the problem of algorithm degrading to worst case in already sorted arrays. It also gives better constant time complexity than picking the pivot randomly 
 
 <b> 3. Partition procedure </b> <br>
 Given a 'pivot' element, now we need to partition our array around this pivot. <br>
