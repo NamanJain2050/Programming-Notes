@@ -20,5 +20,4 @@ Given a 'pivot' element, now we need to partition our array around this pivot. <
 - This scheme is attributed to Nico Lomuto and also mentioned in CLRS (https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme)
 - This scheme chooses pivot as the last element of array
 
-Complete code of Quicksort using this scheme:
-<script src="https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e.js"></script>
+Complete code of Quicksort using this scheme: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e
