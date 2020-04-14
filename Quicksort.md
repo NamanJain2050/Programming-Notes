@@ -33,6 +33,7 @@ Code: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e <br
 - The original partition scheme described by C.A.R. Hoare
 - In this scheme, the pivot's final location is not necessarily at the index that was returned by the partition subroutine.
 - Hoare's scheme is more efficient than Lomuto's partition scheme because it does three times fewer swaps on average, and it creates efficient partitions even when all values are equal.
+- Like Lomuto's partition scheme, Hoare's partitioning also would cause Quicksort to degrade to O(n^2) for already sorted input, if the pivot was chosen as the first or the last element
 
 <b> 4. Time Complexity Analysis </b> <br>
 T(n) = T(k) + T(n-k-1) + \theta(n) <br>
