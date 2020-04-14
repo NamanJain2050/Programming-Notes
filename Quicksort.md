@@ -26,6 +26,14 @@ Code: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e <br
 - This scheme chooses pivot as the last element of array
 - This scheme degrades to O(n^2) when the array is already in order (ascending or descending)
 
+<b> 3.2. Hoare partiton scheme </b> <br>
+
+Code: https://gist.github.com/NamanJain2050/72b2cd52bdd9cc4ad3cd3df46e96f24e <br>
+
+- The original partition scheme described by C.A.R. Hoare
+- In this scheme, the pivot's final location is not necessarily at the index that was returned by the partition subroutine.
+- Hoare's scheme is more efficient than Lomuto's partition scheme because it does three times fewer swaps on average, and it creates efficient partitions even when all values are equal.
+
 <b> 4. Time Complexity Analysis </b> <br>
 T(n) = T(k) + T(n-k-1) + \theta(n) <br>
 where k is the size of left subarray and can range from 0 to n - 1;
