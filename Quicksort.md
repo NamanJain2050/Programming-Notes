@@ -12,5 +12,12 @@ Given a list of numbers we have to choose a pivot element around which we can pa
 - Pick randomly
 - Pick median of array
 
-<b> 3. Partition procedure </b>
-Given a 'pivot' element, now we need to partition our array around this pivot. 
+<b> 3. Partition procedure </b> <br>
+Given a 'pivot' element, now we need to partition our array around this pivot. <br>
+
+<b> 3.1. Lomuto partition scheme </b> <br>
+
+- This scheme is attributed to Nico Lomuto and also mentioned in CLRS (https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme)
+- This scheme chooses pivot as the last element of array
+
+Complete code of Quicksort using this scheme:
