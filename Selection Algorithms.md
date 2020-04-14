@@ -9,6 +9,7 @@ Code: https://gist.github.com/NamanJain2050/e9bde5fdbed25d0c2e8f477837e092ad
 - Time Complexity (just like QuickSort)=> Best: O(n) | Average: O(n) | Worst: O(n^2)
 
 <b> 2. Median-of-Medians Algorithm </b> <br>
+Code: https://gist.github.com/NamanJain2050/a8e06c2bd14ecc8380380eef82507ebd
 - In quickselect even we if choose the pivot randomly we get O(n^2) in worst case. What if we consistenly choose good pivots at each step and every time.
 - The median is a good pivot – the best for sorting, and the best overall choice for selection – decreasing the search set by half at each step.
 - If we can compute the median in linear time, this only adds linear time to each step, and thus the overall complexity of the algorithm remains linear.
