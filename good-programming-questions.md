@@ -2,3 +2,4 @@
 2. Kth Largest element in stream: https://leetcode.com/problems/kth-largest-element-in-a-stream/ => Min heap
 3. Third Maximum number: https://leetcode.com/problems/third-maximum-number/ => Use set to maintain three elements. Operations on set will be O(1) not O(longn)
 4. Sort array of 0s 1s and 2s: https://leetcode.com/problems/sort-colors/ => Dutch national flag algorithm
+5. Wiggle Sort II: https://leetcode.com/problems/wiggle-sort-ii/ => Virtual indexing
