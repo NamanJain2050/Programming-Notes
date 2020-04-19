@@ -126,3 +126,10 @@ print(vect); //1 9 3 7 5 6 4 8 2
 
 ## partition_point()
 Returns the iterator that points to the first element of the second group. The elements in the range shall already be partitioned, as if partition had been called for this function to work as expected.
+
+# Permutations
+## next_permutation()
+Rearranges the elements in the range \[first,last) into the next lexicographically greater permutation. If the function can determine the next higher permutation, it rearranges the elements as such and returns true. If that was not possible (because it is already at the largest possible permutation), it rearranges the elements according to the first permutation (sorted in ascending order) and returns false.
+
+## prev_permutation()
+Rearranges the elements in the range \[first,last) into the previous lexicographically ordered permutation.
