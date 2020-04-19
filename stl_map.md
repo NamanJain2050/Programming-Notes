@@ -1,28 +1,28 @@
 Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
-#heaps
+# heaps
 1. make_heap()
 2. push_heap()
 3. pop_heap()
 
-#sorting
+# sorting
 4. sort_heap()
 5. sort()
 6. partial_sort()
 7. nth_element()
 8. inplace_merge()
 
-#partitioning
+# partitioning
 9. partition()
 10. partition_point()
 
-#other permutations
+# other permutations
 11. rotate()
 12. shuffle()
 13. next_permutation()
 14. prev_permutation()
 15. reverse()
 
-#runes
+# runes
 16. stable_sort()
 17. stable_partition()
 18. is_sorted()
@@ -32,7 +32,7 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 22. is_partitioned_until()
 23. is_heap_until()
 
-#numeric algorithms
+# numeric algorithms
 24. accumulate()
 25. reduce()
 26. transform_reduce()
@@ -45,17 +45,17 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 33. adjacent_difference()
 34. sample()
 
-#querying a property
+# querying a property
 35. all_of
 36. any_of
 37. none_of
 
-#querying a property on 2 ranges
+# querying a property on 2 ranges
 38. equal()
 39. lexicographical_compare()
 40. mismatch()
 
-#searching a value
+# searching a value
 41. find()
 42. adjacent_find()
 43. equal_range()
@@ -63,17 +63,17 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 45. upper_bound()
 46. binary_search()
 
-#searching a range
+# searching a range
 47. search()
 48. find_end()
 49. find_first_of()
 
-#searching a relative value
+# searching a relative value
 50. max_element()
 51. min_element()
 52. minmax_element()
 
-#sets
+# sets
 53. set_difference()
 54. set_intersection()
 55. set_union()
@@ -81,24 +81,24 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 57. includes()
 58. merge()
 
-#movers
+# movers
 59. copy()
 60. move()
 61. swap_ranges()
 62. copy_backward()
 63. move_backward()
 
-#value modifiers
+# value modifiers
 64. fill()
 65. generate()
 66. iota()
 67. replace()
 
-#structure changers
+# structure changers
 68. remove()
 69. unique()
 
-#*_copy()
+# *_copy()
 70. remove_copy()
 71. unique_copy()
 72. reverse_copy()
@@ -107,7 +107,7 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 75. partition_copy()
 76. partition_sort_copy()
 
-#*_if()
+# *_if()
 77. find_if()
 78. find_if_not()
 79. count_if()
@@ -117,11 +117,11 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 83. replace_copy_if()
 84. copy_if()
 
-#extras
+# extras
 85. transform()
 86. for_each()
 
-#raw memory
+# raw memory
 87. uninitialized_fill()
 88. uninitialized_copy()
 89. uninitialized_move()
@@ -129,7 +129,7 @@ Source: https://www.youtube.com/watch?v=bFSnXNIsK4A
 91. uninitialized_default_construct()
 92. uninitialized_value_construct()
 
-#*_N
+# *_N
 93. copy_n()
 94. fill_n()
 95. generate_n()
