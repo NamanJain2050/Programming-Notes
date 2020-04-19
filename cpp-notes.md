@@ -123,3 +123,6 @@ partition(vect.begin(), vect.end(), IsOdd);
 print(vect); //1 9 3 7 5 6 4 8 2
 </code>
 </pre>
+
+## partition_point()
+Returns the iterator that points to the first element of the second group. The elements in the range shall already be partitioned, as if partition had been called for this function to work as expected.
