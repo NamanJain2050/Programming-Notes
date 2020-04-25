@@ -139,7 +139,8 @@ Rearranges the elements in the range \[first,last) into the next lexicographical
 
 ## prev_permutation()
 Rearranges the elements in the range \[first,last) into the previous lexicographically ordered permutation.
-# lower_bound()
+# Extra algorithms
+## lower_bound()
  Returns an iterator pointing to the first element in the range \[first,last) which <b> does not compare less than val </b>.
 <pre>
 <code>
