@@ -4,3 +4,6 @@
 2. Function Objects (Functors)
   - https://www.geeksforgeeks.org/functors-in-cpp/
   - https://www.cprogramming.com/tutorial/functors-function-objects-in-c++.html
+3. Lambdas
+  - https://www.learncpp.com/cpp-tutorial/introduction-to-lambdas-anonymous-functions/
+  - https://www.cprogramming.com/c++11/c++11-lambda-closures.html
