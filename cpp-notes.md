@@ -35,6 +35,12 @@ vect.insert(vect.begin()+2, 9);
 a = b;  //I don't know why I need it in notes.
 </code>
 </pre>
+## Max element in a vector
+<pre>
+<code>
+*max_element(a.begin(), a.end());
+</code>
+</pre>
 # Map
 ## How to sort a map by value
 <pre>
