@@ -8,3 +8,5 @@
   - https://www.learncpp.com/cpp-tutorial/introduction-to-lambdas-anonymous-functions/
   - https://www.cprogramming.com/c++11/c++11-lambda-closures.html
   - https://www.learncpp.com/cpp-tutorial/lambda-captures/
+4. Move semantics
+  - Written notes
