@@ -10,3 +10,7 @@
   - https://www.learncpp.com/cpp-tutorial/lambda-captures/
 4. Move semantics
   - Written notes
+5. Exception handling
+  - Learn cpp chapter 14
+  - catch all (ellipse operator)
+  - noexcept (C++11)
