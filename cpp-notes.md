@@ -139,6 +139,15 @@ Rearranges the elements in the range \[first,last) into the next lexicographical
 
 ## prev_permutation()
 Rearranges the elements in the range \[first,last) into the previous lexicographically ordered permutation.
+# for_each v/s range-based for loops
+## for_each
+std::for_each is an STL algorithm that takes a collection of elements (in the form of a begin and end iterator) and a function (or function object), and applies the function on each element of the collection. It has been there since C++98.
+<pre>
+<code>
+std::vector<int> numbers = {1, 2, 3, 4, 5};
+std::for_each(begin(numbers), end(numbers), f);
+</code>
+</pre>
 # Extra algorithms
 ## lower_bound()
  Returns an iterator pointing to the first element in the range \[first,last) which <b> does not compare less than val </b>.
