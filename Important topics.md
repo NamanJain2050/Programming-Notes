@@ -14,3 +14,5 @@
   - Learn cpp chapter 14
   - catch all (ellipse operator)
   - noexcept (C++11)
+6. string_view
+  - https://www.learncpp.com/cpp-tutorial/6-6a-an-introduction-to-stdstring_view/
