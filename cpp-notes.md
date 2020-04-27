@@ -148,6 +148,19 @@ std::vector<int> numbers = {1, 2, 3, 4, 5};
 std::for_each(begin(numbers), end(numbers), f);
 </code>
 </pre>
+for_each allows to keep the abstraction level of the calling code by pushing implementation down into a dedicated function or function object, and replacing it with the function name as a label.
+## range-based for
+Range-based for loops are a native language construct present in many languages, and were added to C++11:
+<pre>
+<code>
+std::vector<int> numbers = {1, 2, 3, 4, 5};
+for (auto number : numbers)
+{
+    // do something with number
+}
+</code>
+</pre>
+Range-based for loops allow to write code directly at the loop site, but to keep expressiveness this code needs to be at the same abstraction level as the code surrounding the loop.
 # Extra algorithms
 ## lower_bound()
  Returns an iterator pointing to the first element in the range \[first,last) which <b> does not compare less than val </b>.
