@@ -179,12 +179,3 @@ Range-based for loops allow to write code directly at the loop site, but to keep
 std::begin() was added in C++11 to make it easier to write generic code (e.g. in templates). <br>
 <b> The most obvious reason for it is that plain C-style arrays do not have methods, hence no .begin(). </b><br>
 So you can use std::begin() with C-style arrays, as well as STL-style containers having their own begin() and end().
-# Extra algorithms
-## lower_bound()
- Returns an iterator pointing to the first element in the range \[first,last) which <b> does not compare less than val </b>.
-<pre>
-<code>
- 10, 10, 20, 20, 30, 40, 50    //vector
- auto it = lower_bound(a.begin(), a.end(), 15);    //it points to first 20
-</pre>
-</code>
