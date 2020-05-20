@@ -42,6 +42,20 @@ a = b;  //I don't know why I need it in notes.
 </code>
 </pre>
 # Map
+## How to iterate over a map
+<pre>
+<code>
+//1.
+for (auto i : m)
+  cout << i.first << " " << i.second;
+  
+//2.
+for (auto i = m.begin(); i != m.end(); i++)
+  cout << i->first << " " << i->second;
+  
+
+</code>
+</pre>
 ## How to sort a map by value
 <pre>
 <code>
