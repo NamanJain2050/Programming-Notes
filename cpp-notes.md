@@ -182,3 +182,9 @@ So you can use std::begin() with C-style arrays, as well as STL-style containers
 # Extra algorithms
 ## lower_bound()
 Returns an iterator pointing to the first element in the range \[first,last) which <b> does not compare less than val </b>.
+<pre>
+<code>
+ 10, 10, 20, 20, 30, 40, 50    //vector
+ auto it = lower_bound(a.begin(), a.end(), 15);    //it points to first 20
+</pre>
+</code>
