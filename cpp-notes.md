@@ -188,4 +188,3 @@ So you can use std::begin() with C-style arrays, as well as STL-style containers
  auto it = lower_bound(a.begin(), a.end(), 15);    //it points to first 20
 </pre>
 </code>
-## uppeer_bound()
