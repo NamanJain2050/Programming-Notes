@@ -9,3 +9,4 @@
 ## BST
 1. Sorted array to BST
 2. Sorted LL to BST
+3. Normal BST to balanced BST
