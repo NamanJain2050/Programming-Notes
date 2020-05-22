@@ -8,12 +8,4 @@
 
 ## BST
 1. Sorted array to BST
-
-Notes:<br>
-  1. Way1 (if we need to create an actual tree) => <br>
-    1. Convert sorted array to BST (using mid as root and recur) <br>
-    2. Print preOrder of this created BST.
-  2. Way2 (if we do not need to create an actual tree) => <br>
-    1. Recur directly while creating.
-
 2. Sorted LL to BST
