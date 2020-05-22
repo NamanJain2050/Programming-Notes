@@ -5,3 +5,7 @@
 5. Wiggle Sort II: https://leetcode.com/problems/wiggle-sort-ii/ => Virtual indexing
 6. Happy numbers: https://www.geeksforgeeks.org/happy-number/ => Fast pointer/slow pointer
 7. All paths from source to dest: https://www.geeksforgeeks.org/find-paths-given-source-destination/
+
+## BST
+1. Sorted array to BST
+2. Sorted LL to BST
