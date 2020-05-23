@@ -29,6 +29,19 @@ vect.insert(vect.begin(), 0);
 vect.insert(vect.begin()+2, 9);
 </code>
 </pre>
+## Erase from vector at a particular position
+<pre>
+<code>
+vector&lt;int&gt; vect{1,2,3};
+
+//insert at front (0 index)
+vect.erase(vect.begin());
+
+//insert at index 1
+vect.insert(vect.begin()+1);
+</code>
+</pre>
+PS: Cannot use reverse iterator in erase function. To erase last element, use <b> vect.pop_back() </b>
 ## Copy a vector
 <pre>
 <code>
