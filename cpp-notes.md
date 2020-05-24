@@ -54,6 +54,12 @@ a = b;  //I don't know why I need it in notes.
 *max_element(a.begin(), a.end());
 </code>
 </pre>
+## Find an element in vector
+<pre>
+<code>
+auto it = find(begin(vec), end(vec), item); //std::algorithm
+</code>
+</pre>
 # Map
 ## How to iterate over a map
 <pre>
@@ -67,6 +73,12 @@ for (auto i = m.begin(); i != m.end(); i++)
   cout << i->first << " " << i->second;
   
 
+</code>
+</pre>
+## How to delete a key in map
+<pre>
+<code>
+mp.erase(actual_key)
 </code>
 </pre>
 ## How to sort a map by value
