@@ -5,7 +5,8 @@
 5. Wiggle Sort II: https://leetcode.com/problems/wiggle-sort-ii/ => Virtual indexing
 6. Happy numbers: https://www.geeksforgeeks.org/happy-number/ => Fast pointer/slow pointer
 
-
+## Strings
+1. All permutations of a given string
 ## BST
 1. Sorted array to BST
 2. Sorted LL to BST
