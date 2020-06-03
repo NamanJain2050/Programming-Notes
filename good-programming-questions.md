@@ -4,6 +4,7 @@
 4. Wiggle Sort II: https://leetcode.com/problems/wiggle-sort-ii/ => Virtual indexing
 5. Happy numbers: https://www.geeksforgeeks.org/happy-number/ => Fast pointer/slow pointer
 6. Stock buy and sell: https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0 => Peak/Valley approach
+7. Two city scheduling: https://leetcode.com/problems/two-city-scheduling/
 
 ## Strings
 1. All permutations of a given string
