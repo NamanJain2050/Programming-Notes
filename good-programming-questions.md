@@ -5,6 +5,7 @@
 5. Happy numbers: https://www.geeksforgeeks.org/happy-number/ => Fast pointer/slow pointer
 6. Stock buy and sell: https://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0 => Peak/Valley approach
 7. Two city scheduling: https://leetcode.com/problems/two-city-scheduling/
+8. Queue reconstruct: https://leetcode.com/problems/queue-reconstruction-by-height/
 
 ## Strings
 1. All permutations of a given string
@@ -19,3 +20,6 @@
 ## Arrays
 1. Find duplicate in array: https://www.interviewbit.com/problems/find-duplicate-in-array/ => Tortoise-Hare approach
 2. Find Kth smallest in row-wise and column-wise sorted array: https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/ => Min heap and Binary Search
+
+## DP
+1. Coin change: https://leetcode.com/problems/coin-change-2/
