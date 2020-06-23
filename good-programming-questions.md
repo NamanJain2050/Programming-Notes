@@ -7,6 +7,8 @@
 7. Two city scheduling: https://leetcode.com/problems/two-city-scheduling/
 8. Queue reconstruct: https://leetcode.com/problems/queue-reconstruction-by-height/
 
+## Sorting and searching
+1. https://cses.fi/problemset/task/1091
 ## Strings
 1. All permutations of a given string
 ## BST
