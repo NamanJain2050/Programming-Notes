@@ -213,6 +213,7 @@ Returns an iterator pointing to the first element in the range \[first,last) whi
  auto it = lower_bound(a.begin(), a.end(), 15);    //it points to first 20
 </code>
 </pre>
+If the array/vector is sorted in decreasing order, lower_bound() finds iterator to the first element that does not compare greater than to given element
 ## upper_bound()
 Returns an iterator pointing to the first element in the range \[first,last) which <b> compares greater than val </b>.
 <pre>
@@ -221,3 +222,4 @@ Returns an iterator pointing to the first element in the range \[first,last) whi
  auto it = upper_bound(a.begin(), a.end(), 20);    //it points to first 30
 </code>
 </pre>
+If the array/vector is sorted in decreasing order, upper_bound() finds iterator to the first element that is smaller than the given element
