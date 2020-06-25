@@ -223,3 +223,4 @@ Returns an iterator pointing to the first element in the range \[first,last) whi
 </code>
 </pre>
 If the array/vector is sorted in decreasing order, upper_bound() finds iterator to the first element that is smaller than the given element
+Note: s.upper_bound(x) is faster than upper_bound(s.begin(), s.end(), x)
