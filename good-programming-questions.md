@@ -10,6 +10,7 @@
 ## Sorting and searching
 1. https://cses.fi/problemset/task/1091
 2. https://cses.fi/problemset/task/1074 => Median
+3. https://cses.fi/problemset/task/1141 => https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/ => O(n)
 ## Strings
 1. All permutations of a given string
 ## BST
