@@ -60,6 +60,10 @@ a = b;  //I don't know why I need it in notes.
 auto it = find(begin(vec), end(vec), item); //std::algorithm
 </code>
 </pre>
+# Multiset
+## Erase in multiset
+ms.erase(3); will erase all instances of 3 from multi_set. If you want to only erase one instance of 3, do <br>
+ms.erase(ms.lower_bound(3));
 # Map
 ## How to iterate over a map
 <pre>
