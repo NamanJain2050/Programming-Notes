@@ -11,6 +11,7 @@
 1. https://cses.fi/problemset/task/1091
 2. https://cses.fi/problemset/task/1074 => Median
 3. https://cses.fi/problemset/task/1141 => https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/ => O(n)
+4. https://cses.fi/problemset/task/1620 => Factory machines => Binary search => Very good question
 ## Strings
 1. All permutations of a given string
 ## BST
