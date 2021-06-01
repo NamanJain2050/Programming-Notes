@@ -145,6 +145,7 @@ pqueue.push(5);
 pqueue.push(1);
 pqueue.push(2);   //becomes 5,3,2,1
 
+//3. Pop an element
 pqueue.top()      //returns top element
 pqueue.pop()      //removes top element, returns void
 
