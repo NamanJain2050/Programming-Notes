@@ -149,7 +149,12 @@ pqueue.push(2);   //becomes 5,3,2,1
 pqueue.top()      //returns top element
 pqueue.pop()      //removes top element, returns void
 
-
+//4. comparator (< sign means maxx heap; > sign means min heap)
+struct cmp {
+  bool operator()(vector<int>& v1, vector<int>& v2) { 
+    return dist(v1[0], v1[1]) < dist(v2[0], v2[1]);
+  }
+};
 </code>
 </pre>
 # Sorting
