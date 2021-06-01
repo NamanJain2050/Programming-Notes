@@ -137,7 +137,7 @@ print(A);   //0 1 2 3 4 5 6 7 8 9
 <code>
 //1. Initialize a PQ
 // by default we have max-heaps
-priority_queue<int> pqueue;
+priority_queue&lt;int&gt; pqueue;
 
 //2. Push an element
 pqueue.push(3);
